@@ -1,0 +1,166 @@
+*{
+  font-family: helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+#header{
+  height: 72px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  font-size: 22px;sss
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  margin-left: -8px;
+  margin-top:-8px;
+}
+
+h2,
+h4 {
+margin: 0;
+padding: 10px;
+  background-color: black;
+}
+
+#header img{
+  height: 50px;
+  margin-left: 10px;
+  background-color: black;
+
+}
+
+nav{
+  flex-basis: 25%;
+  min-width: 400px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+/*header part over*/
+
+#body{
+    font-size: 22px;
+}
+
+#mission{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 70px;
+  height: 700px;
+  width: 1200px;
+  text-transform: capitalize;
+  position: relative;;
+}
+
+.flex-cover{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.text-wrapper {
+  position: absolute;
+  text-align: center;
+  top: 365px;
+  margin: auto;
+  width: 1200px;
+}
+
+/*top part over*/
+
+#featuredtea{
+  width: 1000px;
+  display:inline-block;
+  padding-top: 120px;
+ margin-top: -50px;
+}
+
+.flex-image{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: column;
+}
+
+.line1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.line2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.image img{
+  height: 200px;
+  width: 300px;
+}
+
+.image{
+  justify-content: flex-start;
+  margin: 0 15px;
+}
+
+/*mid part over*/
+
+
+#locations{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 60px;
+  width: 1200px;
+  margin: auto;
+}
+
+span{
+  font-size: 35px;
+  margin-bottom: ;
+  font-weight: bold;
+}
+
+.flex-location {
+  margin: auto;
+  padding: 15px 0;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+
+.block{
+  opacity: 1;
+  padding: 10px;
+  margin:0 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+}
+/*locations part over*/
+.footer{
+  height: 200px;
+}
+
+
+/*footer part over*/
+.copy p{
+  padding-top: 20px;
+  font-size: 16px;
+ text-align: left;
+}
